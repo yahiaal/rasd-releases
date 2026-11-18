@@ -1,2 +1,7 @@
-# rasd-releases
-Official Windows installers and updates for RASD
+# رصد
+
+[تنزيل أحدث إصدار لويندوز 64 بت](https://github.com/yahiaal/rasd-releases/releases/latest)
+
+اختر ملف التثبيت الذي ينتهي بـ `setup.exe`. إذا كنت تستخدم رصد 2.1.0 أو أقدم، أغلق التطبيق وثبّت الإصدار الجديد مرة واحدة فوق التثبيت الحالي.
+
+ابتداءً من رصد 2.2.0، يفحص التطبيق التحديثات عند فتحه ويثبّتها بعد انتهاء العمليات الجارية.
