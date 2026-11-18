@@ -1,0 +1,10 @@
+{
+  "version": "2.2.6",
+  "pub_date": "2026-11-18T21:28:31.410Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTaUpCL2w4OHNQTDJLYVFBQWpzTnFjMlFhSEFwbm1EaVpnbzZoNkJBR1RBY0pHNU5VKzk3U2d4aUl0T1Axa2x5ZmMzZVh0Q3lVSTFHNmdoY0VXRmt1RG0rYU1Cai9XSVFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDM3MzExCWZpbGU62LHYtdivXzIuMi42X3g2NC1zZXR1cC5leGUJdmVyc2lvbjoyLjIuNgpKRTNwZDFtZk1EM3pNcE9aclJ0ZEpWaGhzdGpQMXJhZnVqU0xPWEJBN3RuV3RRazluZ1VFQ3E1TXdCcytpTFdQRTUxenUrRkswbXkvMm1QODdvcFlCdz09Cg==",
+      "url": "https://github.com/yahiaal/rasd-releases/releases/download/v2.2.6/rasd-2.2.6-windows-x64-setup.exe"
+    }
+  }
+}
