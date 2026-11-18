@@ -1,0 +1,31 @@
+name: Publish signed Windows update
+
+on:
+  push:
+    branches: [incoming]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: rasd-windows-publication
+  queue: max
+
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - name: Verify the staged update
+        env:
+          RASD_UPDATE_PUBLIC_KEY: ${{ vars.RASD_UPDATE_PUBLIC_KEY }}
+        run: node scripts/publish-windows.mjs verify
+      - name: Publish all three assets together
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/publish-windows.mjs publish
